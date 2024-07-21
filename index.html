@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acenda a Lâmpada</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30pt;
+            margin-bottom: -200px;
+            color: yellow
+        }    
+        h2 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 27pt;
+            margin-bottom: -20px;
+            color: yellow
+        }                            
+        body {
+            background-color: rgb(49, 47, 48);
+        
+            padding: 250px;
+            margin-top: 50 px;
+        }
+       
+        footer {
+            background-color: rgb(20, 20, 20);
+            color: rgb(247, 245, 154);
+            text-align: center;
+            padding: 10px;
+          
+          position: fixed;
+          bottom: 0;
+          width: 70%;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>  👈 Acenda a Lâmpada! passando o mouse em cima!  </h2> 
+    <h1 >  Mas se clicar em cima ela quebra 😎</h1> 
+      
+   
+   
+    <img src="imagens/lampada-apagada.jpg" id="luz" alt="Imagem Lâmpada Apagada" onmousemove="mudaLampada('lampada-acesa')" onmouseout="mudaLampada('lampada-apagada')" onclick="mudaLampada('lampada-quebrada')">
+    <footer align: low >
+        Vitor Duarte -  O TI que te impressiona!
+    </footer>
+
+</body>
+<script src="script.js"></script>
+</html>
